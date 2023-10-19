@@ -133,3 +133,26 @@ img {
         margin-left: 10px;
         text-align: center;
     }
+
+/* ABOUT */
+
+#about {
+    display: flex;
+    margin-bottom: 120px;
+
+}
+
+#about .img {
+    width: 55%;
+}
+#about .img img{ 
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+
+#about .text {
+    width: 45%;
+    padding: 180px 5% 0 5%;
+}
