@@ -1,0 +1,134 @@
+body {
+    font-size: 0.875rem;
+}
+
+img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+/* header */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(233, 233, 233);
+}
+
+.header-left {
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.logo {
+    width: 100px;
+    margin-right: 60px;
+    margin-left:5%;
+}
+
+.header-left nav {
+    margin-right: auto;
+}
+
+.nav {
+    align-items: center;
+}
+
+.nav li{
+    margin-right: 30px; 
+}
+
+#otoiawase {
+   background-color: black;
+   width: 200px;
+   height: 80px;
+   text-align: center;
+   line-height: 80px;
+   color: aliceblue;
+   font-size: 0.75rem;
+}
+
+/* main */
+
+/* mainvisual */
+#mainvisual {
+    margin-bottom: 120px;
+
+}
+
+#mainvisual img {
+    width: 100%;
+    height: calc(100vh - 80px);
+    object-fit: cover;
+}
+
+/* section */
+.wrapper {
+    width: 100%;
+    max-width: 1032px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/* NEWS */
+#news {
+    margin-bottom: 120px;
+}
+
+.section-title {
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+
+.section-title .en {
+    display: block;
+    font-size: 2.25rem;
+    letter-spacing: 0.3em;
+    margin-bottom: 10px;
+}
+
+.section-title .ja {
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 36px;
+}
+
+.section-title::after {
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: black;
+    display: block;
+}
+
+#newslist {
+    display: flex;
+    justify-content: space-between;
+}
+
+#newslist li {
+    border-right: solid 1px #616060;
+    width: calc(100%/3);
+    padding: 10px 20px;
+}
+
+#newslist li:last-child {
+    border-right:none
+}
+
+#newslist .date-area span {
+        width: 50px;
+        height: 20px;
+        line-height: 20px;
+        background-color: #000;
+        color: #fff;
+        display: inline-block;
+        font-size: 0.75rem;
+        margin-left: 10px;
+        text-align: center;
+    }

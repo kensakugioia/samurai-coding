@@ -1,12 +1,104 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Entertainment Design</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- icon -->
+    <link rel="icon" href="img6/favicon.ico">
+
+    <!-- jQuely -->
+
 </head>
+
+
 <body>
-    
+    <header id="header">
+
+        <div class="flex header-left">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img6/logo.svg" alt="ロゴ WED">
+                </a>
+
+            </div>
+            <nav>
+                <ul class="flex nav">
+                    <li><a href="#news">NEWS</a>
+                    </li>
+                    <li><a href="#about">ABOUT</a>
+                    </li>
+                    <li><a href="#business">BUSINESS</a>
+                    </li>
+                    <li><a href="#company">COMPANY</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div id="otoiawase">
+            <a href="index.html">お問い合せ</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="mainvisual">
+            <img src="img6/mainvisual.jpg" alt="メインビジュアル">
+        </div>
+
+        <section id="news" class="wrapper">
+            <h2 class="section-title">
+                <span class="en">NEWS</span>
+                <span class="ja">ニュース</span>
+            </h2>
+
+            <ul id="newslist">
+                <li>
+                    <div class="date-area">
+                        <time datetime="2021-01-01">2021.01.01
+                        </time>
+                        <span>NEWS</span>
+                    </div>
+                    <p>タイトルタイトルタイトルタイトル</p>
+                </li>
+
+                <li>
+                    <div class="date-area">
+                        <time datetime="2021-01-01">2021.01.01
+                        </time>
+                        <span>PRESS</span>
+                    </div>
+                    <p>タイトルタイトルタイトルタイトル</p>
+                </li>
+
+                <li>
+                    <div class="date-area">
+                        <time datetime="2021-01-01">2021.01.01
+                        </time>
+                        <span>NEWS</span>
+                    </div>
+                    <p>タイトルタイトルタイトルタイトル</p>
+                </li>
+            </ul>
+
+        </section>
+        <section id="about" class="wrapper"></section>
+        <section id="business" class="wrapper"></section>
+        <section id="company" class="wrapper"></section>
+    </main>
+
+    <footer></footer>
+
+    <!-- jQuely script -->
+
 </body>
+
 </html>
